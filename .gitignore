@@ -1,0 +1,9 @@
+myenv/
+venv/
+__pycache__/
+.idea/
+*.sqlite3
+*.pyc
+*.pkl
+.env
+.DS_Store
