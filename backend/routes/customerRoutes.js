@@ -12,3 +12,5 @@ router.get('/all', ensureAuthenticate, showCustomer);
 
 export default router;
 
+
+// minor update 2466
