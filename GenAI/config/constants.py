@@ -13,3 +13,5 @@ INTENTS = [
 PAYMENT_METHODS = [
     "Cash", "Credit Card", "Debit Card", "Mobile Payment"
 ]
+
+# minor update 1140
