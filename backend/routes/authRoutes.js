@@ -17,3 +17,5 @@ router.post('/login', loginValidation, login);
 
 
 export default router;
+
+// minor update 9692
