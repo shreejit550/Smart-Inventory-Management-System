@@ -27,3 +27,5 @@ if __name__ == "__main__":
     print(f"\nAll products for owner = {owner_email}:")
     for doc in product_col.find({"owner": owner_email}):
         print(doc)
+
+# minor update 9953
