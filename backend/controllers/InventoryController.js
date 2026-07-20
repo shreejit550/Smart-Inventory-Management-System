@@ -96,3 +96,5 @@ export const UpdateProduct =async(req,res)=>{
 // minor update 5036
 
 // minor update 7182
+
+// minor update 1222
