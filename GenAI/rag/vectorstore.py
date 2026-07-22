@@ -17,3 +17,5 @@ def create_vectorstore(docs, embeddings):
         persist_directory="./chroma_db"
     )
     return vectorstore
+
+# minor update 8855
