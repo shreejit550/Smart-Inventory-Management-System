@@ -9,3 +9,5 @@ class InventoryState(TypedDict):
     plan: List[Dict[str, Any]]       # [{"intent": "low_stock", "collection": "product", "query": {...}}]
     db_results: Dict[str, List]      # {"product": [docs...]}
     response: str                    # Final answer
+
+# minor update 6769
