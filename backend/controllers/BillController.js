@@ -198,3 +198,5 @@ export const dashData = async (req, res) => {
     res.status(500).json({ message: "Server error" });
   }
 };
+
+// minor update 1887
