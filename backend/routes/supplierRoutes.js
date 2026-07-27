@@ -11,3 +11,4 @@ router.post('/supplier-data',upload.single('image'),ensureAuthenticate,addSuppli
 router.get('/suppliers',ensureAuthenticate,getSupplier);
 
 export default router;
+// minor update 5979
