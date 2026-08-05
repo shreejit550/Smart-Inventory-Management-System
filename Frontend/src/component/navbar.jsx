@@ -122,3 +122,4 @@ const Navbar = ({ isAuthenticated, setIsAuthenticated }) => {
 };
 
 export default Navbar;
+// minor update 5446
