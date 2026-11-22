@@ -265,24 +265,6 @@ erDiagram
 
 ---
 
-## 📸 Screenshots Showcase
-
-A visual walkthrough of the platform's multi-functional retail interfaces:
-
-| POS Bill Generator & Optical Scanner | Real-Time Sales & Revenue Analytics |
-|:---:|:---:|
-| ![Bill Generator](Frontend/public/billgen.png) | ![Sales Dashboard](Frontend/public/sales.png) |
-
-| Dynamic Inventory Catalog & Search | Invoice Archive & Date Breakdown |
-|:---:|:---:|
-| ![Product Catalog](Frontend/public/productlist.png) | ![Show Bill](Frontend/public/showbill.png) |
-
-| Product Stock Intake & Pricing | Store Branding & System Overview |
-|:---:|:---:|
-| ![Add Product](Frontend/public/addproduct.png) | ![Logo](Frontend/public/logo.gif) |
-
----
-
 ## 🔌 API Reference Guide
 
 ### 🔐 Store Owner Authentication (`/api`)
