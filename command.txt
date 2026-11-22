@@ -1,0 +1,30 @@
+Terminal 1 — Backend REST API Server
+cd backend
+npm install
+npm run server
+# Server listening on port 3000 (http://localhost:3000)
+
+Terminal 2 — GenAI Agent & RAG Pipeline
+cd GenAI
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+ollama run mistral
+ollama pull nomic-embed-text
+python rag/build_rag.py
+python main.py
+# Interactive LangGraph Multi-Agent Terminal Ready
+
+Terminal 3 — Frontend Single Page Application
+cd Frontend
+npm install
+npm run dev
+# Vite Local Dev Server running on http://localhost:5173
+
+Docker Compose (Full Production Stack)
+docker-compose up --build -d
+# Web application accessible on http://localhost:80
+
+Default Owner Account (for testing & GenAI scoping):
+Email: dailyneeds@gmail.com
+Owner ID: dailyneeds@gmail.com
